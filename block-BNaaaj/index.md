@@ -15,8 +15,11 @@ Q. Create 2 files
 
 Q. Write 2 different methods for creating buffer in nodejs using Buffer class.
 - create a fixed length buffer of 12.
-- write code to convert buffer back to string.
+var buf1 = Buffer.alloc(12);
+var buf2 = Buffer.allocUnsafe(12);
 
+- write code to convert buffer back to string.
+buff1.toString();
 Q. Write code example to demonstrate blocking and non-blocking code.
 
 #### http protocol
