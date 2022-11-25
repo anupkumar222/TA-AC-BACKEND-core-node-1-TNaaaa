@@ -20,6 +20,8 @@ var buf2 = Buffer.allocUnsafe(12);
 
 - write code to convert buffer back to string.
 buff1.toString();
+
+
 Q. Write code example to demonstrate blocking and non-blocking code.
 
 #### http protocol
