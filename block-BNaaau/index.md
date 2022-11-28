@@ -5,7 +5,7 @@ Q. Create a basic server using http's createServer
   - console request and response object
   - do a request using browser on `localhost:5000`
   - check out console for request and response object
-
+ 
 Q. create a node server 
   - add listener on port 5100
   - respond with 'My first server in NodeJS' using response object
@@ -22,7 +22,7 @@ Q. write code to create a node server
 
 Q. write code to create a node server 
   - add listener on port 7000
-  - also add a callback function to listener with a console `server listening on port 7000`
+  - also add a callback function to listener with a console `server listening on port 7000`     
   - return entire request headers in response.
 
 Q. create a server
@@ -57,9 +57,9 @@ Q. Handle 2 requests on same route with different method
     1. GET on '/users' route where return a simple HTML form with name and email field
     2. POST on '/users' route with a message 'Posted for the second time'.
 
-Q. create a server and handle query params from the request on following url i.e. `/users?email=nodeserver@gmail.com` from browser
+Q. create a server and handle query params from the request on following url i.e. `/users?email=nodeserver@gmail.com` from browser.
 
-  - parse the  request url using parse method from url module
+  - parse the request url using parse method from url module
   - console pathname from parsed url in above step
   - grab url using `req.url`
   - differentiate between `req.url` and `parsedUrl.pathname`
